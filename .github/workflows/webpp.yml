@@ -1,5 +1,4 @@
-name:deploy-webapp
-
+name: deploy-webapp
 
 on:
   push:
