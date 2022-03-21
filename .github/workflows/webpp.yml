@@ -1,11 +1,9 @@
 name: deploy-webapp
 
-
 on:
   push:
     branches:
       - main
-      - master
     paths:
       - 'wide ui/webapp/**'
 
