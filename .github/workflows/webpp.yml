@@ -5,11 +5,11 @@ on:
     branches:
       - main
     paths:
-      - 'wide ui/webapp/**'
+      - 'webapp/**'
 
 defaults:
   run:
-    working-directory: wide ui/webapp
+    working-directory: webapp
 
 jobs:
   build:
